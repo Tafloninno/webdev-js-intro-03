@@ -1,0 +1,18 @@
+=>Explain why a number data type added to a string data type returns a string.
+ > + is a concatenation operator and as well as arithmetic operator in Javascript. If it finds that operator  used between string and number then it concatenates that number into string else if you using operator for two integers then result will also be integer.
+
+=>Name a scenario where using the == operator could cause a bug.
+ if(books == null){
+
+ }
+ it will execute if books is  null or undefined which is confusing
+ so its better to use === 
+
+=> Name the operator(s) that you find confusing and explain why.
+
+ typeof Operator
+ Confusion: The behavior for special values like null and NaN can be unexpected being object
+
+=> Explain a situation where you would use the Modulus operator and why.
+ If am trying to check if a number is even 
+ because forexample if a number is divisible by 2 and the remainder is 0 thats an even number if not its odd 
